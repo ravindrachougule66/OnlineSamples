@@ -365,3 +365,53 @@ Index was not unstashed.
         [RESULT <pID:19732>]: 
         main
          - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:10 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:56:11 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:13 
+        [COMMAND <pID:19732>]: 
+12:56:14E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\StatusPorcelain.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+12:56:15git.exe status --porcelain -uno  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        M mggw.log
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:27 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:56:28 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+12:56:29 
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
