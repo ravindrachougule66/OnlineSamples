@@ -1,0 +1,15 @@
+﻿12:50:35 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        HEAD
+12:50:36 
+        ***ERROR***<pID:19732>: 
+        fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
