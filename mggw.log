@@ -1,0 +1,417 @@
+﻿12:50:35 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        HEAD
+12:50:36 
+        ***ERROR***<pID:19732>: 
+        fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:52:32 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe stash push -m "devshelveset"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        Saved working directory and index state On main: devshelveset
+         
+        ***ERROR***<pID:19732>: 
+        warning: in the working copy of 'mggw.log', LF will be replaced by CRLF the next time Git touches it
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchId() : Checkout from branch (main)
+         
+        [COMMAND <pID:19732>]: 
+12:52:33E:\MagicXPA\xpa481\GITScripts\CheckoutBranch.bat magicids C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe checkout magicids  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        ***ERROR***<pID:19732>: 
+        error: pathspec 'magicids' did not match any file(s) known to git
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\CheckoutOrphan.bat magicids C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe checkout --orphan magicids  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+12:52:34 
+        [RESULT <pID:19732>]: 
+        M	mggw.log
+         
+        ***ERROR***<pID:19732>: 
+        Switched to a new branch 'magicids'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\PullRemoteBranch.bat origin magicids C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:52:35 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe pull origin magicids  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        ***ERROR***<pID:19732>: 
+        fatal: couldn't find remote ref magicids
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:52:36 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\GetUsername.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe config user.name  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        ravindrachougule66
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\GetUserEmailid.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:52:37 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe config user.email  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        ravindrachougule66@gmail.com
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevId() : Developer Id file created 
+12:52:38GetDevId() : New Developer ID is assigned and commited to Developer IDs file 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\PushBranchToRemote.bat origin magicids C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:52:49 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe push origin magicids  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        ***ERROR***<pID:19732>: 
+        remote: 
+remote: Create a pull request for 'magicids' on GitHub by visiting:        
+remote:      https://github.com/ravindrachougule66/OnlineSamples/pull/new/magicids        
+remote: 
+To https://github.com/ravindrachougule66/OnlineSamples.git
+ * [new branch]      magicids -> magicids
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchId() : Developer ID returned (0) 
+        GetDevIdAndBranchId() : Checkout back to branch (main)
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\CheckoutBranch.bat main C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:52:50 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe checkout main  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        M	mggw.log
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+         
+        ***ERROR***<pID:19732>: 
+        Switched to branch 'main'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\StashList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:52:51 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe stash list  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        stash@{0}: On main: devshelveset
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\StashPopUnshelve.bat 0 C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe stash pop --index 0  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+12:52:52 
+        [RESULT <pID:19732>]: 
+        On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mggw.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitattributes
+	Online Samples.lock
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+         
+        ***ERROR***<pID:19732>: 
+        error: Your local changes to the following files would be overwritten by merge:
+	mggw.log
+Please commit your changes or stash them before you merge.
+Aborting
+Index was not unstashed.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\CheckoutFileWithoutSwitchingBranch.bat magicids "E:/MagicXPA/xpa481/SampleProjects/Online Samples\MagicIDs\devids.txt" C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe checkout magicids -- "E:/MagicXPA/xpa481/SampleProjects/Online Samples\MagicIDs\devids.txt"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+12:52:53E:\MagicXPA\xpa481\GITScripts\RestoreStagedFile.bat "E:/MagicXPA/xpa481/SampleProjects/Online Samples\MagicIDs\devids.txt" C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe restore --staged "E:/MagicXPA/xpa481/SampleProjects/Online Samples\MagicIDs\devids.txt"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetBranchId() : Branch Id file created 
+        GetDevIdAndBranchId() : Branch ID returned (0) 
+12:53:40 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\SetMgmergeName.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe config merge.mgmerge.name "Merge Magic xpa source files"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\SetMgmergeDriver.bat "E:/Magic_XPA/XPA48/Magic Compare 4/merge.exe" C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:53:41 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe config merge.mgmerge.driver "'E:/Magic_XPA/XPA48/Magic Compare 4/merge.exe' %B %A %O %A -merge_changes -captions='Merge_from,Merge_to,Base,Merged'"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\ConfigMergeBinary.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git.exe config merge.mgmerge.recursive binary  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         Empty result is return by git.
+12:53:42 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:53:44 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:53:50 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:53:51 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:54:33 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:54:39 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:54:45 
+        [COMMAND <pID:19732>]: 
+12:54:46E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:54:52 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:54:58 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:54:59 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:05 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:10 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:11 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:17 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:22 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:23 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:33 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:34 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:37 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:38 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\StatusPorcelain.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:39 
+        [GIT COMMAND <pID:19732>]: 
+        git.exe status --porcelain -uno  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        M mggw.log
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:45 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:46 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:55:51 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:55:52 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:10 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:56:11 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:13 
+        [COMMAND <pID:19732>]: 
+12:56:14E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\StatusPorcelain.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+12:56:15git.exe status --porcelain -uno  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        M mggw.log
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+12:56:27 
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+12:56:28 
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+         
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:19732>]: 
+        E:\MagicXPA\xpa481\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 19732
+         
+        [GIT COMMAND <pID:19732>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_19732.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_19732.txt
+12:56:29 
+        [RESULT <pID:19732>]: 
+        main
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
